@@ -15,7 +15,7 @@ app.use(bodyparser.urlencoded({extended:true}));
 
 // On the home route, send signup html template
 app.get("/",function(req,res){
-res.sendFile(__dirname+"/1.html");
+res.sendFile(__dirname+"/index.html");
 });
 
 // Manage post request on home route and
